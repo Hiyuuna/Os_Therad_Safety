@@ -25,7 +25,7 @@ struct Queue {
     Node* tail;
 };
 
-// 함수 선언
+
 Queue* init(void);
 void release(Queue* q);
 Reply enqueue(Queue* q, Item it);
