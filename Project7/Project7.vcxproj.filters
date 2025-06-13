@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="que.cpp">
+    <ClCompile Include="queue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,13 +23,5 @@
     <ClInclude Include="qtype.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="queue.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Readme.md">
-      <Filter>소스 파일</Filter>
-    </None>
   </ItemGroup>
 </Project>
