@@ -9,7 +9,6 @@ Reply enqueue(Queue* q, Item it);
 Reply dequeue(Queue* q);
 Queue* range(Queue* q, Key s, Key e);
 
-// 메모리 할당/해제 함수
 Node* nalloc(Item it);
 void nfree(Node* node);
 
